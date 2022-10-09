@@ -17,7 +17,7 @@ class Persona { //se crea la clase persona con 2 propiedades(nombre y apellido) 
   }	
 }
  
-class Empleado extends Persona { //clase Empleado, atributos heredados de Persona y un atributo mas que es el salario
+class Empleado extends Persona { //Clase Empleado, atributos heredados de Persona y un atributo mas que es el salario
   private sueldo:number;
   constructor(nombre:string, edad:number, sueldo:number) {
 	super(nombre, edad);
