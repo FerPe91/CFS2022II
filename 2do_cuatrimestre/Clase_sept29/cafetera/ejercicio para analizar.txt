@@ -1,0 +1,52 @@
+
+//CONSIGNA:	
+//	• Analizar el siguiente código y decir que mostrara
+
+
+class Persona { //se crea la clase persona con 2 propiedades(nombre y apellido) referenciadas por parametros desde el constructor
+  protected nombre:string;
+  protected edad:number;
+  constructor(nombre:string, edad:number) {
+	this.nombre = nombre;
+	this.edad = edad;
+  }
+ 
+  imprimir() {
+    console.log(`Nombre: ${this.nombre}`);//funcion para imprimir nombre y edad
+	console.log(`Edad: ${this.edad}`);
+  }	
+}
+ 
+class Empleado extends Persona { //clase Empleado, atributos heredados de Persona y un atributo mas que es el salario
+  private sueldo:number;
+  constructor(nombre:string, edad:number, sueldo:number) {
+	super(nombre, edad);
+	this.sueldo = sueldo;
+  }
+ 
+  imprimir() {//funcion para imprimir el sueldo
+    super.imprimir();
+    console.log(`Sueldo: ${this.sueldo}`);  	
+  }
+ 
+  pagaImpuestos() {//si el sueldo es mayor a 5k paga impuestos si no, no paga.
+	if (this.sueldo>5000)
+      console.log(`${this.nombre} debe pagar impuestos`);
+	else
+      console.log(`${this.nombre} no debe pagar impuestos`);
+  }
+}
+ 
+const persona1=new Persona('Juan', 44); //Se crea el objeto Persona juan de 44 años.
+persona1.imprimir(); //deberia decir:Nombre: Juan Edad: 44
+				
+const empleado1=new Empleado('Ana', 22, 7000);
+						
+empleado1.imprimir();//Nombre: ana 22 Edad: 22 Sueldo:7000
+empleado1.pagaImpuestos();//Ana debe pagar impuestos
+
+//el codigo  registra el nombre y edad de una persona.
+y en la subclase crea Personas del tipo empleados. Donde el salario determina si debe pagar 
+o no impuestos siendo esta una subclase de Persona.
+
+
