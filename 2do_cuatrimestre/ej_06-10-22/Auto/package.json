@@ -1,0 +1,12 @@
+{
+  "name": "ej_06-10-22",
+  "version": "1.0.0",
+  "description": "Ejercicio para entregar 17/10/2022\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D herencia e\u001b[2entr\u001b[2~egar 17/10/2022\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D \u001b[De\u001b[D\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar": "node Auto.js",
+     "convertir":"tsc auto.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
