@@ -40,3 +40,4 @@ var triangulo1 = new trianguloEquilatero(5);
 console.log(triangulo1);
 triangulo1.calcularArea();
 triangulo1.calcularPerimetro();
+console.log("hola");
