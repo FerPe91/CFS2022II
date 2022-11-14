@@ -1,0 +1,36 @@
+¿A que se llama Herencia?
+    Se llama Herencia cuando una subclase hace uso de determinada cantidad de metodos y/o atributos.
+    Ejemplo muy usado durante las clases de POO : Vehiculo posee atributos como color,velocidad, etc. Metodos como acelerar, arrancar, etc.
+    Por lo tanto una clase hija "AutoDeCarrera" o "AutoDeciudad" tiene la posibilidad de heredar
+    la cantidad de atributos y metodos que esta necesite de la Super Clase "Vehiculo".
+
+¿Qué es una subclase?
+    Es una clase derivada de la clase padre, se define con el nombre y la palabra reservada del sistema "EXTENDS" seguido el noombre de la super padre.
+
+Que es un objeto?
+    Igual a la vida real, estamos rodeados de objetos, con funcionalidades y diferentes caracteristicas. En POO se trata de representar
+    lo mismo que en la vida real a traves de las propiedades y metodos. Es una instancia de la clase. Definida o referenciada por un metodo constructor.
+
+¿Qué significa que un atributo sea protegido?
+    Que solo se puede acceder a esos datos objetos definidos por la misma clase, o la subclase ya sea para lectura o escritura.
+    
+Existe la herencia múltiple en Typescript?
+    en cuanto a la definicion de clases no, pero a traves de las interfaces se puede conseguir algo similar.
+
+Definir Poliformismo
+    En las subclases, cuando se esta redefiniendo un metodo o modificando su codigo para obtener un resultado distinto al que viene de la clase padre.
+
+¿Qué es un constructor? Para qué sirve?
+    Sirve para referenciar los atributos. Estos pueden tener parametros los cuales le dan el valor a los atributos o tambien pueden crearse constructores 
+    predeterminados con los valores definidos dentro de su bloque de codigo.
+
+¿Cómo se crea una clase abstracta?
+    Se crea a traves de la palabra reservada abstracts y posee metodos no implementados, esta permite solo la herencia y no puede ser instanciada.
+
+¿Para que se usa el super?
+    Se utiliza dentro de las clases hijas, para decirle al constructor que quiero usar los atributos de la superclase.
+    
+¿Qué son las interfaces?
+    Las interfaces son como contratos a los cuales se deben respetar( como en la vida real, un contrato laboral me dice lo que voy a cobrar y cuantos dias
+     de vacaciones corresponden si no cumplo me terminan despidiendo) estos me me definen que cantidad y de que tipo de atributos o metodos tengo que usar.
+     Si no respeto esto el editor de texto va a romper y va lanzar un error diciendo que estoy usando menos propiedades de las que me dice la interfaz.
