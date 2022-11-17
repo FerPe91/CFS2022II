@@ -1,0 +1,11 @@
+{
+  "name": "ej_interfaz_clases_abstractas_auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Auto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

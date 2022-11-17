@@ -1,0 +1,16 @@
+{
+  "name": "turnero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gestorDeArchivos.js",
+  "scripts": {
+    "convertir": "tsc Especialidad.ts , tsc gestorDeArchivos.ts , tsc Horario.ts , tsc Medicos.ts , tsc Paciente.ts ,tsc Turno.ts",
+    "ejecutar": "tsc Turno.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.4",
+    "readline-sync": "^1.4.10"
+  }
+}
