@@ -7,12 +7,8 @@ var reloj = /** @class */ (function () {
         this.digitalOAnalogico = digitalOAnalogico;
     }
     reloj.prototype.darHora = function () {
-        if (this.hora > 12) {
-            console.log("la hora es:" + this.hora + "pm");
-        }
-        else {
-            console.log("la hora es:" + this.hora + "am");
-        }
+
+        console.log("la hora es:" + this.hora + "am");
     };
     reloj.prototype.mostrarInfo = function () {
         console.log("El reloj es, ".concat(this.digitalOAnalogico, " esta en la hora ").concat(this.hora, ", tiene un valor de $ ").concat(this.valor));
